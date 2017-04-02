@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item  android:id="@+id/item1"
+        android:title="Item 1"/>
+    <item  android:id="@+id/item2"
+        android:title="Item 2"/>
+    <item  android:id="@+id/item3"
+        android:title="Item 3"/>
+    <item  android:id="@+id/start"
+        android:title="Start"/>
+    <item  android:id="@+id/stop"
+        android:title="Stop"/>
+    <group
+        android:id="@+id/group_delete"
+        android:checkableBehavior="single">
+        <item android:id="@+id/menu_archive"
+            android:checked="true"
+            android:title="menu_archive" />
+        <item android:id="@+id/menu_delete"
+            android:title="menu_delete" />
+    </group>
+    <group
+        android:id="@+id/group_save"
+        android:checkableBehavior="all">
+        <item android:id="@+id/menu_commit"
+            android:title="menu_commit" />
+        <item android:id="@+id/menu_push"
+            android:title="menu_push" />
+    </group>
+</menu>
